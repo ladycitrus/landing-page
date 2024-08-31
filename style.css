@@ -1,26 +1,31 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
     display: flex; 
     flex-direction: column; 
   }
 
-.header {
-    display: flex;
+.header, 
+.footer,
+.info-container {
     background-color: #1F2937;
+    color:#e5e7eb;
+    display: flex;
+    
+}
+
+.header {
     justify-content: space-between;
     align-items: center;
-    padding: 24px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 24px 100px;
 
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 900px;        
+    font-weight: 900;        
 }
 
 ul {
@@ -37,14 +42,69 @@ a {
     color: #eee;
 }
 
-.top-container {
-
+.info-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 }
 
 .info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 50px 100px;
 }
 
-.signup-top,
-.signup-bottom {
+.text {
+}
+
+
+.info-img {
+    display: flex;
+    align-self: center;
+    padding-right: 100px;
+
+  
+}
+
+
+.content-container {
+    flex:1;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+
+
+
+button {
     background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 24px;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 16px;
+
+
+}
+
+.signup-top {
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+
 }
