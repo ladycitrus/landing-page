@@ -106,16 +106,23 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 250px;
+    padding: 50px 250px;
     background-color: #e5e7eb;
 
 }
 
 .quote-text {
+    font-size: 26px;
+    font-style:italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding-bottom: 10px;
     
 }
 
 .quote-author {
+    align-self: flex-end;
+    font-weight: 900;
 }
 
 
