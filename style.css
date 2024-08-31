@@ -15,9 +15,12 @@ body {
     
 }
 
+/* Section 1 */
+
 .header {
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 500px;
     padding: 24px 100px;
 
 }
@@ -42,17 +45,17 @@ a {
     color: #eee;
 }
 
+/* Section 2 */
+
 .info-container {
-    display: flex;
     gap: 50px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .info-box {
-    display: flex;
     flex-direction: column;
-    gap: 9px;
     padding: 50px 100px;
+    width: 500px;
 }
 
 .text {
@@ -67,6 +70,13 @@ a {
     padding-right: 100px;
 
 }
+
+#signup-top {
+    margin-top: 5px;
+    border-style: none;
+}
+
+/*Section 3 */
 
 .content-header {
     display: flex;
@@ -101,12 +111,14 @@ a {
     border: 3px solid #3882f6;
 }
 
+/* Section 4 */
+
 .quote-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 250px;
+    padding: 50px 350px;
     background-color: #e5e7eb;
 
 }
@@ -115,24 +127,37 @@ a {
     font-size: 26px;
     font-style:italic;
     font-weight: 100;
+    width: 700px;
     color: #1f2937;
     padding-bottom: 10px;
     
 }
 
 .quote-author {
-    align-self: flex-end;
+    text-align:right;
+    width:700px;
     font-weight: 900;
 }
 
-.blue-container {
+/* Section 5 */
+
+.section-5 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px 50px;
+    margin:;
+}
+
+
+.blue-container {
+    display: flex;
+    justify-content: center;
+    width: 763px;
     background-color: #3882F6;
-    margin: 50px 120px;
     border-radius: 8px;
+    gap: 100px;
+    padding: 20px;
 }
 
 button {
@@ -144,29 +169,23 @@ button {
     font-size: 16px;
 }
 
-.signup-top,
-.signup-bottom {
+#signup-top,
+#signup-bottom {
     transition-duration: 0.4s;
 }
 
-.signup-top {
-    align-self: flex-start;
-    justify-content: center;
-    border-style: none;
-}
-
-.signup-bottom {
-
+#signup-bottom {
     text-wrap:nowrap;
     border: 2px solid #e5e7eb;
-    
 }
 
-.signup-top:hover,
-.signup-bottom:hover {
+#signup-top:hover,
+#signup-bottom:hover {
     background-color: #e5e7eb;
     color: black;
 }
+
+/* Section 6 */
 
 .footer {
     justify-content: center;
